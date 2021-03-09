@@ -1,12 +1,3 @@
-'''
-§________________________________________§
-
-	♦ Created by: Andrés Felipe Mejía ♦
-	♦ Creado por: Andrés Felipe Mejía ♦
-§________________________________________§
-'''
-
-
 import pygame, sys
 from pygame.locals import *
 from random import randint as rand
@@ -211,15 +202,6 @@ class Snake(Food):
 		if self.body[0] in self.body[2:self.snakeSize]:
 			print('Body')
 			self.gameOver(True)
-
-	'''
-	def Existence(self):
-		text = self.textFont.render("¡Por favor, no destruyas la efímera existencia de la serpiente! :(", False, (1, 114, 145))
-		SCREEN.blit(text, (WIDTH // 2 - 450, HEIGHT // 2 - 15))
-		pygame.display.flip()
-		pygame.time.delay(2000)
-	'''
-			
 
 # ---------------------------------------------------------------------------- MAIN ---------------------------------------------------------------------------------
 
