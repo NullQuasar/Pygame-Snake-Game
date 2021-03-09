@@ -1,0 +1,6 @@
+# Useless files
+test.py
+Snake_v2.py
+build/
+dist/
+__pycache__/
