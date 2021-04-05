@@ -4,3 +4,4 @@ Snake_v2.py
 build/
 dist/
 __pycache__/
+Snake.spec
