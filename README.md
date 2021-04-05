@@ -7,7 +7,7 @@ Classic snake game in pygame
 git clone https://github.com/NullQuasar/Pygame-Snake-Game.git
 cd Pygame-Snake-Game
 pip3 install pygame
-python3 Pygame.py
+python3 Snake.py
 ```
 
 ## Change snake and food color
